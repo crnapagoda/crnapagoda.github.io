@@ -15,18 +15,6 @@ p {
       
 }
 
-#tw {
-      
-      width: 500px;
-      height: 110px;
-      font-size: 100px;
-      position: absolute;
-      animation: linear infinite;
-      animation-name: test2;
-      animation-duration: 4s;
-      animation-iteration-count: infinite;
-      
-}
 
 a {
       text-decoration: none;
@@ -37,13 +25,5 @@ a {
       0% { left: 0px;}
       50%{ left : 1920px;}
       100%{ left: 0px;}
-      
-}
-
-@keyframes test2 {
-      
-      0% { bottom: 0px;}
-      50%{ bottom : 1080px;}
-      100%{ bottom: 0px;}
       
 }
