@@ -1,15 +1,49 @@
 body {
-      background: black;
-    }
+     background-color:black;
+}
+    
 p {
-      left: 0;
-      line-height: 200px;
-      margin-top: -100px;
+      
+      width: 500px;
+      height: 110px;
+      font-size: 100px;
       position: absolute;
-      text-align: center;
-      top: 50%;
-      width: 100%;
-      font-weight: bold;
-      font-size: 150px;
-      color: white;
+      animation: linear infinite ;
+      animation-name: test;
+      animation-duration: 6s;
+      animation-iteration-count: infinite;
+      
+}
 
+#tw {
+      
+      width: 500px;
+      height: 110px;
+      font-size: 100px;
+      position: absolute;
+      animation: linear ;
+      animation-name: test2;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      
+}
+
+a {
+      text-decoration: none;
+      color: white
+}
+@keyframes test {
+      
+      0% { left: 0;}
+      50%{ left : 100%;}
+      100%{ left: 0;}
+      
+}
+
+@keyframes test2 {
+      
+      0% { bottom: 0;}
+      50%{ bottom : 100%;}
+      100%{ bottom: 0;}
+      
+}
